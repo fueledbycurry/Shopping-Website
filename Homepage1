@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>VAJ Auto!</title>
-	<h1>VAJ Auto!</h1>
+	<title>VAJ Customs!</title>
+	<h1>VAJ Customs!!</h1>
+	
+	<figure class="gallery-item">
+        <img class="thumbnail" src="http://4.bp.blogspot.com/-yOHnTlxVXEo/Vn9y7aILHyI/AAAAAAAADrE/3ORZUTU-39w/s1600/IMG_2471-largeq.jpg">
+
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
