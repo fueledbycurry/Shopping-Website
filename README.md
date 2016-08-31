@@ -3,6 +3,6 @@ Jordon Kashanchi, Vrishab Madduri, and AJ Valenty
 
 # Goals:
 <ul>
-<li>1.) To create a basic shopping website</li>
-<li>2.) The ability to add things to your "cart"</li>
+<li> To create a basic shopping website</li>
+<li> The ability to add things to your "cart"</li>
 </ul>
