@@ -1,1 +1,12 @@
-<html> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VAJ Auto!</title>
+	<h1>VAJ Auto!</h1>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h2>#1 Autodealer!</h2>
+</body>
+</html>
