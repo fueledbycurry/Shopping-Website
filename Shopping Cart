@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
  
@@ -40,18 +41,24 @@
         <table id="Items" align="center" border="1" bgcolor="lightgreen">
                
                 <tr>
-                        <td>Apple®</td>
-                        <td>iPad® with Wi-Fi + 3G 16GB</td>
-                        <td>$429.99</td>
+				<ul>
+                       <td>Custom Spoiler</td>
+                     <li> <td>Brand: Seibon </td> </li>
+					 <li> <td>Model: GTWING-180</td> </li>
+                       <li> <td>$500</td> </li>
                         <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
-                </tr>
+                </ul>
+				</tr>
                
                 <tr>
-                        <td>Apple®</td>
-                        <td>iPad® mini Wi-Fi - 16GB - White and Silver</td>
+				<ul>
+                      <li> <td>Custom Muffler</td></li>
+                        <td>Brand: MagnaFlow</td>
+						<td>Model: 12468 Performance Muffler</td>
                         <td>$329.99</td>
                         <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
-                </tr>
+                </ul>
+				</tr>
                
                 <tr>
                         <td>HTC®</td>
@@ -82,5 +89,5 @@
  
  
 </body>
+
 </html>
-http://pastebin.com/sutGWjSY
