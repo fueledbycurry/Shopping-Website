@@ -10,10 +10,10 @@
         return false;
         }
        
-        function AddtoCart() {
+        function AddtoCart(var y) {
                 console.log( 'hi');
                 var x=document.getElementById('Items');
-                var new_row = x.rows[1].cloneNode(true);
+                var new_row = x.rows[y].cloneNode(true);
                 var len = x.rows.length;
                 new_row.cells[0].innerHTML = len;
    
@@ -34,38 +34,41 @@
  
   <div id="Main">
    
-        <h1 align="center"> Welcome to our Online Shopping Site </h1> <hr>
+        <h1 align="center"> Welcome to VJ Customs! </h1> <hr>
        
         <p align="center"> View Cart    <a href="#" onclick="return show('Cart','Main');"> <img src="cart.jpg" height=50px width=45px> </img> </a> </p>
        
-        <table id="Items" align="center" border="1" bgcolor="lightgreen">
+        <table id="Items" align="center" border="1" bgcolor="lightblue">
                
                 <tr>
-				<ul>
+				
                        <td>Custom Spoiler</td>
-                     <li> <td>Brand: Seibon </td> </li>
-					 <li> <td>Model: GTWING-180</td> </li>
-                       <li> <td>$500</td> </li>
-                        <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
-                </ul>
+                      <td>Brand: Seibon </td> 
+					  <td>Model: GTWING-180</td> 
+                        <td>$5000</td> 
+                        <td> <input type="image" src="spoiler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(0)"> </td>
+                
 				</tr>
                
                 <tr>
-				<ul>
-                      <li> <td>Custom Muffler</td></li>
+				
+                       <td>Custom Muffler</td>
                         <td>Brand: MagnaFlow</td>
 						<td>Model: 12468 Performance Muffler</td>
-                        <td>$329.99</td>
-                        <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
-                </ul>
+                        <td>$1350</td>
+                        <td> <input type="image" src="muffler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(1)"> </td>
+                
 				</tr>
                
                 <tr>
-                        <td>HTC®</td>
-                        <td>HTC First® - Black;</td>
-                        <td>$99.99</td>
-                        <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
-                </tr>
+				
+                        <td>Navigation Systems</td>
+                      <td>Brand: Pioneer </td>
+					  <td>Model: AVIC-7200NEX</td>
+                       <td>$1200</td>
+                        <td> <input type="image" src="navigation.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(2)"> </td>
+                
+				</tr>
        
         </table>
  
@@ -73,9 +76,9 @@
  
   <div id="Cart" style="display:none">
        
-        <h1 align="center">Online Shopping Cart</h1>
+        <h1 align="center">Shopping Cart</h1>
    
-        <table id="tablecart" align="center" border="1" bgcolor="lightgreen">
+        <table id="tablecart" align="center" border="1" bgcolor="lightblue">
        
                 <tr>
                         <td>Total</td>
