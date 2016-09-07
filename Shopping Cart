@@ -10,20 +10,21 @@
         return false;
         }
        
-        function AddtoCart(var y) {
-                console.log( 'hi');
+        function AddtoCart(y) {
+                console.log( 'hi row='+y);
                 var x=document.getElementById('Items');
+                var cart=document.getElementById('Cart');
                 var new_row = x.rows[y].cloneNode(true);
                 var len = x.rows.length;
                 new_row.cells[0].innerHTML = len;
    
-                var inp1 = new_row.cells[1].getElementsByTagName('input')[0];
-                inp1.id += len;
-                inp1.value = '';
-                var inp2 = new_row.cells[2].getElementsByTagName('input')[0];
-                inp2.id += len;
-                inp2.value = '';
-                x.appendChild( new_row );
+                var inp1 = new_row.cells[1].getElementsByTagName('input')[y];
+                //inp1.id += len;
+                //inp1.value = ''+len;
+                var inp2 = new_row.cells[2].getElementsByTagName('input')[y];
+                //inp2.id += len;
+                //inp2.value = ''+len;
+                cart.appendChild( new_row );
         }
  
 </script>
@@ -36,7 +37,7 @@
    
         <h1 align="center"> Welcome to VJ Customs! </h1> <hr>
        
-        <p align="center"> View Cart    <a href="#" onclick="return show('Cart','Main');"> <img src="cart.jpg" height=50px width=45px> </img> </a> </p>
+        <p align="center"> View Cart    <a href="#" onclick="return show('Cart','Main');"> <img src="shopping.jpg" height=50px width=45px> </img> </a> </p>
        
         <table id="Items" align="center" border="1" bgcolor="lightblue">
                
@@ -46,7 +47,7 @@
                       <td>Brand: Seibon </td> 
 					  <td>Model: GTWING-180</td> 
                         <td>$5000</td> 
-                        <td> <input type="image" src="spoiler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(0)"> </td>
+                        <td> <input id="0" type="image" src="spoiler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(0)"> </td>
                 
 				</tr>
                
@@ -56,7 +57,7 @@
                         <td>Brand: MagnaFlow</td>
 						<td>Model: 12468 Performance Muffler</td>
                         <td>$1350</td>
-                        <td> <input type="image" src="muffler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(1)"> </td>
+                        <td> <input id="1" type="image" src="muffler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(1)"> </td>
                 
 				</tr>
                
@@ -66,7 +67,7 @@
                       <td>Brand: Pioneer </td>
 					  <td>Model: AVIC-7200NEX</td>
                        <td>$1200</td>
-                        <td> <input type="image" src="navigation.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(2)"> </td>
+                        <td> <input id="2" type="image" src="navigation.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(2)"> </td>
                 
 				</tr>
        
