@@ -13,10 +13,10 @@
         function AddtoCart(y) {
                 console.log( 'hi row='+y);
                 var x=document.getElementById('Items');
-                var cart=document.getElementById('Cart');
+                var cart=document.getElementById('tablecartrows');
                 var new_row = x.rows[y].cloneNode(true);
                 var len = x.rows.length;
-                new_row.cells[0].innerHTML = len;
+                //new_row.cells[0].innerHTML = len;
    
                 var inp1 = new_row.cells[1].getElementsByTagName('input')[y];
                 //inp1.id += len;
@@ -75,18 +75,31 @@
  
   </div>
  
-  <div id="Cart" style="display:none">
+  <div id="Cart" align="center" style="display:none">
        
         <h1 align="center">Shopping Cart</h1>
    
         <table id="tablecart" align="center" border="1" bgcolor="lightblue">
-       
-                <tr>
+                 <tr>
                         <td>Total</td>
                         <td id="Total"></td>
                 </tr>
         </table>
-       
+ 
+		<br/>
+		<br/>
+		
+        <table id="tablecartrows" align="center" border="1" bgcolor="lightblue">
+                 <tr> 
+                      <td>Item</td>
+                      <td>Brand</td>
+					  <td>Model</td>
+                       <td>Price</td>
+                        <td>Photo</td> 
+                 </tr>
+        </table>
+
+ 
    <p align="center"> <a href="#" onclick="return show('Main','Cart');">Return</a> </p>
  
   </div>
