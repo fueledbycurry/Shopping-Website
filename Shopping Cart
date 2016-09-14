@@ -47,7 +47,7 @@
                        <td>Custom Spoiler</td>
                       <td>Brand: Seibon </td> 
 					  <td>Model: GTWING-180</td> 
-                        <td>$5000</td> 
+                        <td>$5,000</td> 
                         <td> <input id="0" type="image" src="spoiler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(0)"> </td>
                 
 				</tr>
@@ -57,7 +57,7 @@
                        <td>Custom Muffler</td>
                         <td>Brand: MagnaFlow</td>
 						<td>Model: 12468 Performance Muffler</td>
-                        <td>$1350</td>
+                        <td>$1,350</td>
                         <td> <input id="1" type="image" src="muffler.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(1)"> </td>
                 
 				</tr>
@@ -67,8 +67,36 @@
                         <td>Navigation Systems</td>
                       <td>Brand: Pioneer </td>
 					  <td>Model: AVIC-7200NEX</td>
-                       <td>$1200</td>
+                       <td>$1,600</td>
                         <td> <input id="2" type="image" src="navigation.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(2)"> </td>
+                
+				</tr>
+				<tr>
+				
+                        <td>Custom Rims</td>
+                      <td>Brand: Forgiato </td>
+					  <td>Model: DECIMO-L</td>
+                       <td>$30,000</td>
+                        <td> <input id="3" type="image" src="rim.png" name="Cart" height="150px" width="145px" onclick="AddtoCart(3)"> </td>
+                
+				</tr>
+				</tr>
+				<tr>
+				
+                        <td>Custom T-SHIRTS</td>
+                      <td>Brand: VJ Customs! </td>
+					  <td>Model: mark 1</td>
+                       <td>$250</td>
+                        <td> <input id="4" type="image" src="mark1.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(4)"> </td>
+                
+				</tr>
+				<tr>
+				
+                        <td>Custom Hats</td>
+                      <td>Brand: VJ Customs! </td>
+					  <td>Model: mark 1</td>
+                       <td>$250</td>
+                        <td> <input id="5" type="image" src="mark1.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(5)"> </td>
                 
 				</tr>
 				
