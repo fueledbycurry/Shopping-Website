@@ -23,7 +23,7 @@
                 //inp1.value = ''+len;
                 var inp2 = new_row.cells[2].getElementsByTagName('input')[y];
                 //inp2.id += len;
-                //inp2.value = ''+len;
+                //inp2.value = ''+len; E6E6FA
                 cart.appendChild( new_row );
         }
  
@@ -86,7 +86,7 @@
                         <td>Custom T-SHIRTS</td>
                       <td>Brand: VJ Customs! </td>
 					  <td>Model: mark 1</td>
-                       <td>$250</td>
+                       <td>$250-BEST SELLER!</td>
                         <td> <input id="4" type="image" src="mark1.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(4)"> </td>
                 
 				</tr>
@@ -95,8 +95,17 @@
                         <td>Custom Hats</td>
                       <td>Brand: VJ Customs! </td>
 					  <td>Model: mark 1</td>
-                       <td>$250</td>
-                        <td> <input id="5" type="image" src="mark1.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(5)"> </td>
+                       <td>$500-ON SALE!</td>
+                        <td> <input id="5" type="image" src="hat.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(5)"> </td>
+                
+				</tr>
+				<tr>
+				
+                        <td>Stereo Systems</td>
+                      <td>Brand: Pioneer </td>
+					  <td>Model: FH-X820BS</td>
+                       <td>$400</td>
+                        <td> <input id="6" type="image" src="stereo.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(6)"> </td>
                 
 				</tr>
 				
@@ -107,7 +116,7 @@
   <div id="Cart" align="center" style="display:none">
        
         <h1 align="center">Shopping Cart</h1>
-   
+     <body bgcolor="#C39BD3">
         <table id="tablecart" align="center" border="1" bgcolor="lightblue">
                  <tr>
                         <td>Total</td>
@@ -137,6 +146,7 @@
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+<a href="https://livechat.boldchat.com/aid/433648989528448346/bc.chat?resize=true&cbdid=206732315113366610&wdid=3441743072331158572&url=http%3A%2F%2Fwww.autozone.com%2F%3Fcmpid%3DPS%3A1%3A1%3A6&queueToken=1473950365055TD257C25C53696273B2C4813B914ED6E490321BA197C8538E10797F5074FFB540ECDED3F34B1305D806C41F14918CCF0E147055CD48741DBECA7D2ED1245120DA&_bcvm_vrid_=true&_bcvm_vid_3441743072331158572=430724033017396470TED0B4E1E9A56102324214DED04D00802F78ED29C45343A92CEA0F17565C195DC20812255096F0D58854E411C4EEF904BB1DA4548E0E52EF0DFB599CAB9C3A889&_bcvm_vrid_3441743072331158572=430724033946608924TA7AFA32BA15E0C779B61C248C6D790656FBA51844E6EA99C48460F50AA63EF450B598244B0F30EB0987F7C306AE253005F1E44CEC9409947EF4ED756E5DA4E68">help</a>
   </div>
  
  
