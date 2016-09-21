@@ -9,25 +9,63 @@ body {background-color:#262626;}
 
 </style>
 	<center><img src= "Title.png"></center>
-	
-	<figure class="gallery-item">
-	
-	
-       
-<img src="giphy.gif">
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<link href="dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+
+<br />
+<br />
+
+
+<ul id="navigation" class="nav-main">
+	<li><a href="file:///H:\HomePage1\Shop.html">Home</a></li>
+ 		
+    
+    
+    <li><a href="file:///H:\HomePage\Shop.html">Cars</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">Rims</a></li>
+		<li><a href="file:///H:\HomePage\Subwoofer.html">Spoilers</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">Skirts</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">Navigation</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">Stereo</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">Mufflers</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">Attire</a></li>    
+	    <li><a href="file:///H:\HomePage\Shop.html">Pictures</a></li>
+ 		<li><a href="file:///H:\HomePage\Shop.html">Contact</a></li>
+		<li><a href="file:///H:\HomePage\Shop.html">About Us</a></li>
+	
+	
+    
+
+</ul>
+
+<br />
+<br />
+	
+	<figure class="gallery-item">
+	<center><img src="giphy.gif"></center>
 	<center><img src= "usa.png"></center>
 	
-	<font size="100px"><a href="http://www.crutchfield.com/S-5IbHLarcr0s/m_500/Car-Subwoofers-Boxes.html">Subwoofers</a></li>
-	<font size="100px"><a href="http://www.google.com">Mufflers</a></li>
-    <font size="100px"><a href="http://www.google.com">Navigation</a></li>
+	
+
+	
+
+</ul>
 	
 	<ul> </ul>
 	
-	<p>Here at VJ Customs, we strive to provide you the very best parts and custom body outfitters- for the FRACTION of the cost!</p>
+	<font color="white"><p>Here at VJ Customs, we strive to provide you the very best parts and custom body outfitters- for the FRACTION of the cost!</p>
 	<center> <img class="thumbnail" src="https://i.ytimg.com/vi/_CGpR8PAYx8/maxresdefault.jpg"> </center>
 
 
@@ -39,3 +77,8 @@ body {background-color:#262626;}
 </body>
 </html>
 
+
+
+
+</body>
+</html>
