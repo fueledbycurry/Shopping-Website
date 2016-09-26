@@ -61,6 +61,15 @@
                         <td> <input id="1" type="image" src="hat.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(1)"> </td>
                 
 				</tr>
+				<tr>
+				
+                        <td>Custom Socks</td>
+                      <td> VJ Customs! </td>
+					  <td> mark 1</td>
+                       <td>$100-LIMTED EDITION!</td>
+                        <td> <input id="2" type="image" src="sock.jpg" name="Cart" height="150px" width="145px" onclick="AddtoCart(2)"> </td>
+                
+				</tr>
 				
 			
 				
